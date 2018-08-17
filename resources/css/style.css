@@ -1,6 +1,6 @@
 /*Universal*/
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "open sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -12,7 +12,7 @@ html {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin-top: 2rem;
 }
 
 .brand {
@@ -36,4 +36,73 @@ html {
   padding: 1rem;
   text-decoration: none;
   color: black;
+}
+
+/*Banner*/
+.banner {
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.banner img {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+
+.banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  justify-content: space-between;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.banner-text h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+button {
+  font-family: "abril fatface", serif;
+  font-size: 1.7rem;
+  padding: 1rem auto;
+  border-radius: .25rem;
+  background-color: #f4511e;
+  border: none;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  color: #FFFFFF;
+  height: 3rem;
+  width: auto;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 1.5rem;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
