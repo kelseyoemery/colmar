@@ -125,7 +125,7 @@ button:hover span:after {
 
 .main img {
   margin: 2rem 1.5rem;
-max-width: 100%;
+  max-width: 100%;
 }
 
 #quote {
@@ -234,4 +234,67 @@ max-width: 100%;
 
 .course-text {
   margin: 1.5rem 1rem;
+}
+
+/*thesis*/
+.thesis {
+  display: flex;
+  flex-flow: column;
+}
+
+.thesis span {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 2rem auto;
+}
+
+.thesis h5 {
+  margin: 1.5rem 0 .5rem 1.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.thesis p {
+  font-size: 1.2rem;
+  font-weight: thin;
+  line-height: 1.5;
+  margin-left: 1.5rem;
+  width: 80%;
+}
+
+.thesis-sections {
+  display: flex;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.video video {
+  margin: 1.5rem;
+  width: 90%;
+}
+
+.thesis2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:
+  width: 40%;
+}
+
+.click {
+  display: flex;
+}
+
+.thesis2 img {
+  height: auto;
+  max-width: 35%;
+  padding: 1.5rem;
+}
+
+.thesis2 span {
+  width: 65%;
 }
