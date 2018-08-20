@@ -298,3 +298,16 @@ button:hover span:after {
 .thesis2 span {
   width: 65%;
 }
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin:1.5rem 2rem;
+}
+
+footer ul,li {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem;
+}
