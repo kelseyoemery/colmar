@@ -243,13 +243,15 @@ button:hover span:after {
 /*Information FYI Media Query*/
 @media only screen and (max-width: 470px) {
   .fyi {
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 1rem 1rem 2rem 1rem;
   }
 
   .article {
     flex-direction: column;
-
+    justify-content: center;
     margin-bottom: 2rem;
     width: 100%;
   }
@@ -261,20 +263,23 @@ button:hover span:after {
   .article img.mobile-image {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0;
   }
 
   .article .read{
     width: 100%;
-    padding: 1rem;
+    padding-top: 1rem;
+    text-align: left;
   }
 
   .read h3 {
     font-size: 1rem;
   }
 
-  .read p{
+  .read p {
+    display: block;
     font-size: .7rem;
   }
 }
@@ -369,7 +374,6 @@ button:hover span:after {
   .description img,p{
     display: none;
   }
-
 }
 
 /*thesis*/
@@ -441,6 +445,32 @@ button:hover span:after {
   color: black;
 }
 
+/*thesis Media Query*/
+@media only screen and (max-width:470px){
+
+  .thesis2 {
+    display: none;
+  }
+
+  .thesis span {
+    text-align: center;
+  }
+
+  .thesis video {
+    width: 100%;
+    margin: 0;
+  }
+
+  .video h5,p {
+    display: none;
+  }
+
+  .video {
+    margin: 0;
+    width: 100%;
+  }
+}
+
 /*footer*/
 footer {
   display: flex;
@@ -452,4 +482,15 @@ footer ul,li {
   display: flex;
   flex-direction: row;
   padding: .5rem;
+}
+
+/*footer media query*/
+@media only screen and (max-width:470px) {
+  footer ul {
+    display: none;
+  }
+
+  footer span {
+    font-size: .5rem;
+  }
 }
