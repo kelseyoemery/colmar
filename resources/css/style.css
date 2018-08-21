@@ -281,12 +281,13 @@ button:hover span:after {
 .thesis2 {
   display: flex;
   flex-direction: column;
-  justify-content:
   width: 40%;
 }
 
 .click {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .thesis2 img {
@@ -297,6 +298,11 @@ button:hover span:after {
 
 .thesis2 span {
   width: 65%;
+}
+
+.thesis2 a {
+  text-decoration: none;
+  color: black;
 }
 
 /*footer*/
