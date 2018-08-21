@@ -38,6 +38,27 @@ html {
   color: black;
 }
 
+/*Header Media Query*/
+@media only screen and (max-width: 470px) {
+  .header {
+    height: 4rem;
+  }
+
+  .navigation ul {
+    display: none;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .nav-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
 /*Banner*/
 .banner {
   background-color: lightgray;
@@ -110,6 +131,34 @@ button:hover span:after {
   right: 0;
 }
 
+/*Banner Media Query*/
+@media only screen and (max-width: 470px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .banner-text h1 {
+    margin: 2rem 1rem;
+    font-size: 1.7rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1rem;
+    margin: 0 0 1.5rem 1rem;
+  }
+
+  button {
+    margin-bottom: 1.5rem;
+  }
+}
+
 /*Information Main*/
 .info {
   display: flex;
@@ -141,6 +190,13 @@ button:hover span:after {
 #quote p {
   line-height: 1.5;
   margin-bottom: 2rem;
+}
+
+/*Information Main Media Query*/
+@media only screen and (max-width: 470px) {
+  .main {
+    display: none;
+  }
 }
 
 /* Information FYI */
@@ -182,6 +238,45 @@ button:hover span:after {
 .read a {
   text-decoration: none;
   color: lightblue;
+}
+
+/*Information FYI Media Query*/
+@media only screen and (max-width: 470px) {
+  .fyi {
+    width: 100%;
+    margin: 1rem 1rem 2rem 1rem;
+  }
+
+  .article {
+    flex-direction: column;
+
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .article img {
+    display: none;
+  }
+
+  .article img.mobile-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .article .read{
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .read h3 {
+    font-size: 1rem;
+  }
+
+  .read p{
+    font-size: .7rem;
+  }
 }
 
 /*Courses*/
@@ -234,6 +329,47 @@ button:hover span:after {
 
 .course-text {
   margin: 1.5rem 1rem;
+  text-align: center;
+}
+
+/*Courses Media Query*/
+@media only screen and (max-width: 470px) {
+
+  .courses {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .description {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    margin: .5rem;
+    text-align: left;
+  }
+
+  .description h4 {
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .course-text {
+    margin: 0;
+  }
+
+  .course-text br {
+    display: none;
+  }
+
+  .classes {
+    width: 100%;
+  }
+
+  .description img,p{
+    display: none;
+  }
+
 }
 
 /*thesis*/
