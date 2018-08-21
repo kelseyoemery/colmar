@@ -45,7 +45,7 @@ html {
 }
 
 /*Header Media Query*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
   .header {
     height: 4rem;
     margin: 0;
@@ -141,7 +141,7 @@ button:hover span:after {
 }
 
 /*Banner Media Query*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
   .banner {
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ button:hover span:after {
 }
 
 /*Information Main Media Query*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
   .main {
     display: none;
   }
@@ -255,7 +255,7 @@ button:hover span:after {
 }
 
 /*Information FYI Media Query*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
   .fyi {
     justify-content: center;
     align-items: center;
@@ -355,7 +355,7 @@ button:hover span:after {
 }
 
 /*Courses Media Query*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
 
   .courses {
     justify-content: center;
@@ -465,7 +465,7 @@ button:hover span:after {
 }
 
 /*thesis Media Query*/
-@media only screen and (max-width:470px){
+@media only screen and (max-width:600px){
 
   .thesis2 {
     display: none;
@@ -504,7 +504,7 @@ footer ul,li {
 }
 
 /*footer media query*/
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:600px) {
   footer ul {
     display: none;
   }
