@@ -49,6 +49,7 @@ html {
   .header {
     height: 4rem;
     margin: 0;
+    justify-content: space-around;
   }
 
   .navigation ul {
@@ -145,6 +146,7 @@ button:hover span:after {
   .banner {
     display: flex;
     flex-direction: column;
+    padding-top: 4rem;
   }
 
   .banner img {
@@ -261,13 +263,15 @@ button:hover span:after {
     align-items: center;
     width: 100%;
     margin: 1rem 1rem 2rem 1rem;
+    background-color: #ffffff;
   }
 
   .article {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2rem;
-    width: 100%;
+    width: auto;
+    background-color: #bbbbbb;
   }
 
   .article img {
@@ -278,7 +282,7 @@ button:hover span:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: auto;
     margin: 0;
   }
 
